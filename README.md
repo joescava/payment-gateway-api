@@ -1,5 +1,7 @@
 Payment Gateway API
 
+![.NET CI](https://github.com/joescava/payment-gateway-api/actions/workflows/dotnet.yml/badge.svg)
+
 A .NET 8.0 Web API built using Clean Architecture principles. This project serves as a simplified payment gateway, the best practices for backend structure, API key authentication, middleware usage, and modularity by layers.
 
 # Project Structure
@@ -129,5 +131,7 @@ Notes
 - No expiration or CVV validation – simulated only.
 - Ready for future Docker Compose services (DB, Redis).
 
-Author: Johan Cante
+# Author
+
+ Johan Cante
 
