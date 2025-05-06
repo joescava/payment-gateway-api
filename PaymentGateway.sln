@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{961FDFCA-C650-426B-A11F-D2273FA1936D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Application", "src\PaymentGateway.Application\PaymentGateway.Application.csproj", "{406443A4-F72A-484C-AE24-E931C8CD7294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Domain", "src\PaymentGateway.Domain\PaymentGateway.Domain.csproj", "{5512AE16-1B8E-4CF8-AFFC-A18AA0BDC3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Infrastructure", "src\PaymentGateway.Infrastructure\PaymentGateway.Infrastructure.csproj", "{FEEBF9E2-638C-459C-B73F-C2B65FF72C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Persistence", "src\PaymentGateway.Persistence\PaymentGateway.Persistence.csproj", "{13AF3BB4-9109-4509-BE0F-03012472CD3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1C7AA97D-F775-4F08-B6AF-6B669703B043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.Tests", "tests\PaymentGateway.Tests\PaymentGateway.Tests.csproj", "{DB4684CE-E5B8-45FF-B638-88A26AF78F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentGateway.API", "src\PaymentGateway.API\PaymentGateway.API.csproj", "{D0406592-305D-4467-998D-107DBD80DBB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406443A4-F72A-484C-AE24-E931C8CD7294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406443A4-F72A-484C-AE24-E931C8CD7294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406443A4-F72A-484C-AE24-E931C8CD7294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406443A4-F72A-484C-AE24-E931C8CD7294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5512AE16-1B8E-4CF8-AFFC-A18AA0BDC3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5512AE16-1B8E-4CF8-AFFC-A18AA0BDC3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5512AE16-1B8E-4CF8-AFFC-A18AA0BDC3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5512AE16-1B8E-4CF8-AFFC-A18AA0BDC3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEBF9E2-638C-459C-B73F-C2B65FF72C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEBF9E2-638C-459C-B73F-C2B65FF72C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEBF9E2-638C-459C-B73F-C2B65FF72C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEBF9E2-638C-459C-B73F-C2B65FF72C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AF3BB4-9109-4509-BE0F-03012472CD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AF3BB4-9109-4509-BE0F-03012472CD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AF3BB4-9109-4509-BE0F-03012472CD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AF3BB4-9109-4509-BE0F-03012472CD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4684CE-E5B8-45FF-B638-88A26AF78F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4684CE-E5B8-45FF-B638-88A26AF78F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4684CE-E5B8-45FF-B638-88A26AF78F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4684CE-E5B8-45FF-B638-88A26AF78F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0406592-305D-4467-998D-107DBD80DBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0406592-305D-4467-998D-107DBD80DBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0406592-305D-4467-998D-107DBD80DBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0406592-305D-4467-998D-107DBD80DBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{406443A4-F72A-484C-AE24-E931C8CD7294} = {961FDFCA-C650-426B-A11F-D2273FA1936D}
+		{5512AE16-1B8E-4CF8-AFFC-A18AA0BDC3E9} = {961FDFCA-C650-426B-A11F-D2273FA1936D}
+		{FEEBF9E2-638C-459C-B73F-C2B65FF72C2B} = {961FDFCA-C650-426B-A11F-D2273FA1936D}
+		{13AF3BB4-9109-4509-BE0F-03012472CD3F} = {961FDFCA-C650-426B-A11F-D2273FA1936D}
+		{DB4684CE-E5B8-45FF-B638-88A26AF78F6B} = {1C7AA97D-F775-4F08-B6AF-6B669703B043}
+		{D0406592-305D-4467-998D-107DBD80DBB2} = {961FDFCA-C650-426B-A11F-D2273FA1936D}
+	EndGlobalSection
+EndGlobal

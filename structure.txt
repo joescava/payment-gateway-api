@@ -1,0 +1,49 @@
+.
+├── .DS_Store
+├── .gitignore
+├── docker-compose.yml
+├── Dockerfile
+├── PaymentGateway.sln
+├── README.md
+├── src
+│   ├── .DS_Store
+│   ├── PaymentGateway.API
+│   │   ├── Auth
+│   │   │   └── ApiKeyAuthenticationHandler.cs
+│   │   ├── Controllers
+│   │   │   └── PaymentController.cs
+│   │   ├── Middleware
+│   │   │   └── ErrorHandlingMiddleware.cs
+│   │   ├── PaymentGateway.API.csproj
+│   │   ├── PaymentGateway.API.http
+│   │   ├── Program.cs
+│   │   └── Properties
+│   ├── PaymentGateway.Application
+│   │   ├── DTOs
+│   │   │   ├── PaymentRequestDto.cs
+│   │   │   └── PaymentResponseDto.cs
+│   │   ├── Interfaces
+│   │   │   └── IPaymentService.cs
+│   │   ├── PaymentGateway.Application.csproj
+│   │   └── Services
+│   │       └── PaymentService.cs
+│   ├── PaymentGateway.Domain
+│   │   ├── Entities
+│   │   │   └── Payment.cs
+│   │   └── PaymentGateway.Domain.csproj
+│   ├── PaymentGateway.Infrastructure
+│   │   ├── MockAcquirer
+│   │   │   ├── FakeAcquirer.cs
+│   │   │   └── IAcquirer.cs
+│   │   └── PaymentGateway.Infrastructure.csproj
+│   └── PaymentGateway.Persistence
+│       ├── PaymentGateway.Persistence.csproj
+│       └── Repositories
+│           └── InMemoryPaymentRepository.cs
+└── tests
+    └── PaymentGateway.Tests
+        ├── PaymentGateway.Tests.csproj
+        └── Services
+            └── PaymentServiceTests.cs
+
+20 directories, 27 files

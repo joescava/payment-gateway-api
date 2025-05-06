@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  payment-gateway-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5010:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./src/PaymentGateway.API:/app
+    restart: unless-stopped
