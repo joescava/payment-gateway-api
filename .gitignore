@@ -1,6 +1,16 @@
+# .NET
 bin/
 obj/
-.vscode/
 *.user
 *.suo
-*.DS_Store
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Docker
+**/publish/
